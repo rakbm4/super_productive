@@ -1,0 +1,851 @@
+{
+  "Index": {
+    "title": "Bonjour le monde !"
+  },
+  "AUTH": {
+    "EMAIL": "Email",
+    "PASSWORD": "Mot de passe",
+    "USERNAME": "Nom d'utilisateur",
+    "SIGN_IN": {
+      "TITLE": "Se connecter",
+      "DESC": "Bienvenue sur Super Productive !",
+      "SUBMIT_BTN": "Se connecter",
+      "FORGOT_PASSWORD": "Mot de passe oublié ?",
+      "DONT_HAVE_ACCOUNT": {
+        "FIRST": "Vous n'avez pas de compte ?",
+        "SECOND": "S'inscrire"
+      },
+      "PROVIDERS": {
+        "GOOGLE": "Se connecter avec Google",
+        "APPLE": "Se connecter avec Apple",
+        "GITHUB": "Se connecter avec Github"
+      }
+    },
+    "SIGN_UP": {
+      "TITLE": "S'inscrire",
+      "DESC": "Créez votre compte",
+      "SUBMIT_BTN": "S'inscrire",
+      "FORGOT_PASSWORD": "Mot de passe oublié ?",
+      "HAVE_ACCOUNT": {
+        "FIRST": "Vous avez déjà un compte ?",
+        "SECOND": "Se connecter"
+      },
+      "TERMS": {
+        "FIRST": "En vous inscrivant, vous acceptez nos",
+        "SECOND": "Conditions d'utilisation"
+      },
+      "PROVIDERS": {
+        "GOOGLE": "S'inscrire avec Google",
+        "APPLE": "S'inscrire avec Apple",
+        "GITHUB": "S'inscrire avec Github"
+      }
+    },
+    "NEW_WORKSPACE": {
+      "INPUTS": {
+        "NAME": "Nom de l'espace de travail",
+        "FILE": "Icône de l'espace de travail (optionnel)"
+      },
+      "PLACEHOLDERS": {
+        "NAME": "ex. OpenStudio"
+      },
+      "IMAGE": "Seuls les types .jpeg, .jpg, .png, .webp, .gif sont supportés",
+      "BTN_ADD": "Créer",
+      "BTN_PENDING": "Création en cours. Veuillez patienter"
+    }
+  },
+  "CHANGE_PROFILE_IMAGE": {
+    "TITLE": "Envoyez une photo !",
+    "BUTTON": "Choisir une photo"
+  },
+  "ONBOARDING_FORM": {
+    "FIRST_STEP": {
+      "TITLE": {
+        "FIRST": "Préparons-nous",
+        "SECOND": "prêt"
+      },
+      "PHOTO": "Ajouter une photo",
+      "INPUTS": {
+        "NAME": "Prénom",
+        "SURNAME": "Nom"
+      },
+      "PLACEHOLDER": {
+        "NAME": "nom",
+        "SURNAME": "nom de famille"
+      }
+    },
+    "SECOND_STEP": {
+      "TITLE": "Comment allez-vous utiliser",
+      "INFO": "Nous utilisons ces informations pour personnaliser votre expérience",
+      "WORK": "Pour le travail",
+      "STUDY": "Pour les études",
+      "PERSONAL": "Pour un usage personnel"
+    },
+    "THIRD_STEP": {
+      "TITLE": "Créer un espace de travail",
+      "INPUTS": {
+        "NAME": "Nom de l'espace de travail",
+        "FILE": "Icône de l'espace de travail (optionnel)"
+      },
+      "PLACEHOLDERS": {
+        "NAME": "ex. Open Studio"
+      },
+      "IMAGE": "Seuls les types .jpeg, .jpg, .png, .webp, .gif sont supportés"
+    },
+    "FINISH": {
+      "TITLE": "C'est tout !",
+      "DESC_FIRST": "Vous pouvez déjà commencer à utiliser",
+      "DESC_SECOND": "en cliquant sur le bouton ci-dessous"
+    },
+    "START_BTN": "Commencer",
+    "NEXT_BTN": "Continuer",
+    "IS_DONE": "juste un instant de plus"
+  },
+  "UPLOAD_FILE": {
+    "UPLOAD": "Télécharger"
+  },
+  "INVITE": {
+    "HINT": "Ajouter à l'espace de travail",
+    "INVITE": "Inviter",
+    "TITLE": "Inviter dans",
+    "DESC": "Copiez le lien d'invitation et envoyez-le aux personnes que vous souhaitez inviter dans cet espace de travail. Vous pouvez définir des rôles et générer un nouveau lien."
+  },
+  "LEAVE_FROM_WORKSPACE": {
+    "LEAVE": "Quitter",
+    "TITLE": "Quitter",
+    "DESC": "Vous pouvez quitter cet espace de travail à tout moment et y revenir lorsque vous serez invité à nouveau.",
+    "WARNING": "Toutes les tâches et les cartes mentales de cet espace de travail qui ont été ajoutées à l'onglet « Étoilé » seront supprimées. Il en va de même pour les activités qui vous sont assignées.",
+    "LOADING_BTN": "Quitte. Veuillez patienter"
+  },
+  "MESSAGES": {
+    "ERRORS": {
+      "DEFAULT": "Oh non... Quelque chose a mal tourné. Veuillez réessayer",
+      "TAKEN_USERNAME": "Ce nom d'utilisateur est déjà pris",
+      "TAKEN_EMAIL": "Cet email est déjà utilisé...",
+      "DB_ERROR": "Nous avons actuellement des problèmes. Veuillez réessayer plus tard",
+      "WRONG_DATA": "Les données fournies sont incorrectes. Veuillez fournir les bonnes.",
+      "NO_USER": "Utilisateur non trouvé. Veuillez entrer un email valide",
+      "WRONG_PASSWORD": "Le mot de passe entré est incorrect. Veuillez entrer le bon.",
+      "IMAGE_PROFILE_UPDATE": "Échec de la mise à jour de votre image de profil. Veuillez réessayer",
+      "IMAGE_PROFILE_DELETE": "Échec de la suppression de votre image de profil. Veuillez réessayer.",
+      "UPLOAD_FAILED": "Échec du téléchargement de votre fichier. Veuillez réessayer.",
+      "WORKSPACE_ICON_ADDED": "Échec de l'ajout de l'icône de l'espace de travail. Veuillez réessayer",
+      "NO_USER_API": "Utilisateur non trouvé",
+      "UNAUTHORIZED": "Non autorisé. Veuillez vous connecter !",
+      "TOO_MANY_WORKSPACES": "La limite du nombre d'espaces de travail créables a été atteinte"
+    },
+    "SUCCESS": {
+      "SIGN_UP": "Compte créé !",
+      "SIGN_IN": "Vous êtes connecté !",
+      "IMAGE_PROFILE_UPDATE": "Votre image de profil a été mise à jour !",
+      "IMAGE_PROFILE_DELETE": "Votre image de profil a été supprimée !",
+      "ONBOARDING_COMPLETE": "Bienvenue sur Super Productive !",
+      "PASSWORD_CHANGED": "Le mot de passe a été changé !",
+      "NEW_WORKSPACE": "L'espace de travail a été créé !"
+    },
+    "PENDING": {
+      "LOADING": "Veuillez patienter"
+    },
+    "SCHEMA": {
+      "PASSWORD": {
+        "MIN": "Le mot de passe doit comporter au moins 6 caractères",
+        "UPPERCASE": "Le mot de passe doit contenir au moins une lettre majuscule",
+        "LOWERCASE": "Le mot de passe doit contenir au moins une lettre minuscule",
+        "DIGIT": "Le mot de passe doit contenir au moins un chiffre"
+      },
+      "EMAIL": "Veuillez entrer un email valide",
+      "USERNAME": {
+        "SHORT": "Le nom d'utilisateur est trop court",
+        "SPECIAL_CHARS": "Le nom d'utilisateur doit contenir uniquement des lettres et des chiffres"
+      },
+      "IMAGE": {
+        "MAX": "La taille maximale de l'image est de 5 Mo",
+        "SUPPORTED": "Seuls les types .jpeg, .jpg, .png, .webp, .gif sont supportés"
+      },
+      "WORKSPACE": {
+        "SHORT": "Le nom de l'espace de travail est trop court",
+        "SPECIAL_CHARS": "Le nom de l'espace de travail doit contenir uniquement des lettres et des chiffres"
+      },
+      "LANGUAGE": "Veuillez sélectionner une langue",
+      "CHOOSE_ONE": "Veuillez choisir une des options"
+    }
+  },
+  "SIDEBAR": {
+    "MAIN": {
+      "HOME_HOVER": "Accueil",
+      "LOG_OUT_HOVER": "Se déconnecter",
+      "SETTINGS_HOVER": "Paramètres",
+      "POMODORO_HOVER": "Pomodoro",
+      "STARRED_HOVER": "Étoilé",
+      "ASSIGNED_TO_ME_HOVER": "Assigné à moi",
+      "CALENDAR_HOVER": "Calendrier",
+      "NEW_WORKSPACE_HOVER": "Nouvel espace de travail",
+      "NEW_WORKSPACE_DIALOG_TITLE": "Créer un nouvel espace de travail",
+      "NEW_WORKSPACE_DIALOG_DESC": "quelque texte"
+    },
+    "SETTINGS": {
+      "GENERAL": "Général",
+      "ACCOUNT": "Compte",
+      "SECURITY": "Sécurité",
+      "THEME": "Thème",
+      "WORKSPACE": "Espace de travail"
+    },
+    "POMODORO": {
+      "TIMER": "Minuteur",
+      "SETTINGS": "Paramètres"
+    },
+    "WORKSPACE_OPTIONS": {
+      "SHORTCUTS": "Raccourcis",
+      "TASKS": "Tâches",
+      "MIND_MAPS": "Cartes mentales",
+      "SCHEDULES": "Horaires",
+      "STUDY": "Études",
+      "FILES": "Fichiers",
+      "DEFAULT_NAME": "Sans titre",
+      "ACTIONS": "Actions",
+      "ADD_TASK": "Ajouter une tâche",
+      "ADD_MIND_MAP": "Ajouter une carte mentale"
+    }
+  },
+  "COMMON": {
+    "WELCOMEBACK": "Bienvenue",
+    "LANG_HOVER": "Changer de langue",
+    "THEME_HOVER": "Changer de thème",
+    "DARK": "Sombre",
+    "LIGHT": "Clair",
+    "SYSTEM": "Système",
+    "LOG_OUT": "Se déconnecter",
+    "SETTINGS": "Paramètres",
+    "WARNING": "ATTENTION",
+    "NOTICE": "AVIS",
+    "DEFAULT_NAME": {
+      "MIND_MAP": "Carte mentale sans titre",
+      "TASK": "Tâche sans titre"
+    },
+    "ACTIVE_WORKSPACES": {
+      "FIRST": "Vous avez",
+      "SECOND": "sur",
+      "THIRD": "espaces de travail actifs"
+    },
+    "BACK_BTN": "Retour",
+    "SAVING_STATUS": {
+      "SAVED": "Enregistré",
+      "SAVING": "Enregistrement",
+      "UNSAVED": "Non enregistré"
+    },
+    "TAG": {
+      "FILTER": "Filtrer",
+      "NEW_TAG": "Nouvelle étiquette",
+      "TAG": "Étiquette",
+      "ERROR": "Oups... Quelque chose a mal tourné",
+      "ERROR_BTN": "Réessayer",
+      "NOT_FOUND": "Non trouvé",
+      "TAGS_HEADING": "ÉTIQUETTES",
+      "NEW_HEADING": "NOUVEAU",
+      "ADD_TAG": "Ajouter une étiquette",
+      "COLORS": "Couleurs",
+      "TAG_NAME": "Nom",
+      "BTNS": {
+        "CREATE": "Créer",
+        "CANCEL": "Annuler",
+        "DELETE": "Supprimer",
+        "UPDATE": "Mettre à jour"
+      }
+    },
+    "EDITED_ITEM_SENTENCE": {
+      "MIND_MAP": "Carte mentale modifiée",
+      "TASK": "Tâche modifiée",
+      "BY": "par",
+      "IN": " - dans"
+    }
+  },
+  "PERMISSIONS": {
+    "WAIT": "Veuillez patienter",
+    "PERMISSIONS": "PERMISSIONS",
+    "COPY": "Copier le lien",
+    "OWNER": {
+      "TITLE": "Propriétaire"
+    },
+    "ADMIN": {
+      "TITLE": "Admin",
+      "DESC": "Il a tous les droits possibles, y compris de changer les paramètres de l'espace de travail et de gérer d'autres utilisateurs."
+    },
+    "EDITOR": {
+      "TITLE": "Éditeur",
+      "DESC": "Il a un accès complet à l'espace de travail et des droits pour modifier et supprimer du contenu dans l'espace de travail. Cependant, il n'a pas accès aux paramètres de la zone."
+    },
+    "VIEWER": {
+      "TITLE": "Observateur",
+      "DESC": "Il a un accès complet à l'espace de travail, mais ne peut ni modifier ni supprimer quoi que ce soit. Il n'a également pas accès aux paramètres de la zone."
+    }
+  },
+  "TASK": {
+    "HEADER": {
+      "PLACEHOLDER": "Tâche sans titre",
+      "DATE": {
+        "PICK": "Choisir une date",
+        "INFO": "Si vous sélectionnez une date, la tâche sera ajoutée à votre calendrier"
+      },
+      "TAG": {
+        "FILTER": "Filtrer",
+        "NEW_TAG": "Nouvelle étiquette",
+        "TAG": "Étiquette",
+        "ERROR": "Oups... Quelque chose a mal tourné",
+        "ERROR_BTN": "Réessayer",
+        "NOT_FOUND": "Non trouvé",
+        "TAGS_HEADING": "ÉTIQUETTES",
+        "NEW_HEADING": "NOUVEAU",
+        "ADD_TAG": "Ajouter une étiquette",
+        "COLORS": "Couleurs",
+        "TAG_NAME": "Nom",
+        "BTNS": {
+          "CREATE": "Créer",
+          "CANCEL": "Annuler",
+          "DELETE": "Supprimer",
+          "UPDATE": "Mettre à jour"
+        }
+      }
+    },
+    "EDITOR": {
+      "PLACEHOLDER": "Écrivez quelque chose de cool ",
+      "WORDS": "nombre de mots :",
+      "CHARS": "caractères",
+      "IMAGE": {
+        "TITLE": "Ajouter une image",
+        "DESC": "Vous pouvez ajouter une photo en fournissant un lien vers celle-ci ou en l'important depuis votre appareil.",
+        "LINK": "Ajouter via le lien",
+        "UPLOAD": "Importer depuis l'appareil",
+        "LINK_TAB": {
+          "PLACEHOLDER": "Lien de la photo",
+          "BTN_ADD": "Ajouter l'image",
+          "BTN_PENDING": "Vérification du lien"
+        },
+        "UPLOAD_TAB": {
+          "TYPES": "Seuls les types .jpeg, .jpg, .png, .webp, .gif sont autorisés",
+          "BTN_ADD": "Ajouter l'image",
+          "BTN_PENDING": "Ajout en cours"
+        }
+      },
+      "HOVER": {
+        "H1": "Titre 1",
+        "H2": "Titre 2",
+        "H3": "Titre 3",
+        "H4": "Titre 4",
+        "H5": "Titre 5",
+        "H6": "Titre 6",
+        "BOLD": "Gras",
+        "ITALIC": "Italique",
+        "STRIKETHROUGH": "Barré",
+        "UNDERLINE": "Souligné",
+        "CODE": "Code",
+        "UL": "Liste non ordonnée",
+        "OL": "Liste ordonnée",
+        "LINK": "Ajouter un hyperlien",
+        "IMAGE": "Ajouter une image",
+        "COLOR": "Surligner",
+        "COLOR_DEFAULT": "Couleur par défaut",
+        "UNDO": "Annuler",
+        "REDO": "Rétablir",
+        "DELETE": "Supprimer"
+      },
+      "READ_ONLY": {
+        "NO_DATE": "non enregistré dans le calendrier",
+        "NO_TITLE": "Tâche sans titre",
+        "NO_CONTENT": "Tâche sans contenu",
+        "DELETE": "Supprimer",
+        "EDIT": "Modifier",
+        "ADD_TO_FAV": "Ajouter aux favoris",
+        "REMOVE_FROM_FAV": "Retirer des favoris",
+        "CREATOR_INFO": "Créée par",
+        "EDITOR_INFO": "Modifiée par",
+        "DIALOG": {
+          "TITLE": "Supprimer la tâche",
+          "DESC": "Êtes-vous sûr de vouloir supprimer cette note ? Vous perdrez toutes les données qu'elle contient et les activités associées. La suppression est irréversible",
+          "BTN_DELETE": "Supprimer la tâche",
+          "BTN_PENDING": "Suppression en cours"
+        }
+      }
+    },
+    "BTN": {
+      "SAVE_TASK": "Ajouter une tâche"
+    },
+    "ASSIGNMENT": {
+      "TRIGGER": "Assigner",
+      "ERROR_MSG": "Quelque chose a mal tourné, veuillez réessayer",
+      "ERROR_BTN": "Réessayer",
+      "PLACEHOLDER": "Filtrer",
+      "NOT_FOUND": "Utilisateur non trouvé",
+      "HEADING": "ASSIGNER À"
+    },
+    "CREATOR_INFO": "Créée par",
+    "EDITOR_INFO": "Modifiée par"
+  },
+  "MIND_MAP": {
+    "HOVER_TIP": {
+      "ADD_TITLE": "Ajouter un nouveau titre",
+      "SAVE": "Enregistrer la carte mentale"
+    },
+    "TAG": "Ajouter une étiquette à la carte mentale",
+    "DELETE": {
+      "MESSAGE": {
+        "SUCCES": "Réinitialisation réussie",
+        "ERROR": "Échec de l'enregistrement des modifications."
+      },
+      "HOVER": "Supprimer toutes les tuiles",
+      "DIALOG": {
+        "TITLE": "Supprimer toutes les tuiles",
+        "DESC": "Réinitialiser la disposition de la carte mentale à son état initial",
+        "WARNING": "Restaurer l'état initial supprimera toutes les tuiles et connexions actuelles. Cliquez sur 'Réinitialiser l'état' pour supprimer toutes les tuiles et connexions.",
+        "BTN_RESET": "Réinitialiser l'état",
+        "BTN_PENDING": "Réinitialisation en cours"
+      }
+    },
+    "EDGE_OPTIONS": {
+      "TITLE": "Paramètres de connexion",
+      "DESC": "Personnalisez l'apparence de vos connexions. Ajoutez du texte, définissez le type de connexion, changez la couleur et choisissez si vous voulez les animer !",
+      "FORM": {
+        "LABEL": {
+          "LABEL": "Libellé",
+          "DESC": "Ajouter du texte affichera un libellé. Laissez le champ vide et enregistrez les modifications pour le supprimer.",
+          "PLACEHOLDER": "Ajouter un libellé"
+        },
+        "TYPE": {
+          "LABEL": "Type de connexion",
+          "DEFAULT": "Par défaut",
+          "STRAIGHT": "Droit",
+          "STEP_SHARP": "Étape",
+          "STEP_ROUNDED": "Étape (coins arrondis)",
+          "DESC": "Choisissez comment la connexion se comporte"
+        },
+        "COLOR": {
+          "LABEL": "Couleur",
+          "DESC": "Le choix de la couleur n'affecte que le libellé"
+        },
+        "ANIMATED": {
+          "LABEL": "Animer la connexion"
+        },
+        "BTN_SAVE": "Enregistrer",
+        "BTN_DELETE_EDGE": "Supprimer la connexion"
+      }
+    },
+    "NODE": {
+      "EDIT": "Modifier",
+      "COLOR": "Couleur",
+      "DELETE": "Supprimer",
+      "SAVE": "Enregistrer les modifications",
+      "CANCEL": "Annuler",
+      "PLACEHOLDER": "Ajouter une nouvelle description"
+    },
+    "EDIT_TITLE_AND_EMOJI": {
+      "ERROR": "Échec de l'enregistrement des modifications.",
+      "HOVER": "Modifier les informations",
+      "TITLE": "Modifier les informations",
+      "DESC": "Changez le nom de votre carte mentale et définissez son icône",
+      "PLACEHOLDER": "Carte mentale sans titre",
+      "SAVE": "Enregistrer",
+      "CANCEL": "Annuler"
+    },
+    "PREVIEW": {
+      "INFO": "Ceci est la page de prévisualisation. Vous pouvez naviguer dans l'espace de la carte, mais pour la modifier, allez sur la page d'édition (si vous avez les permissions nécessaires).",
+      "NO_TITLE": "Carte mentale sans titre",
+      "DELETE": "Supprimer",
+      "EDIT": "Modifier",
+      "ADD_TO_FAV": "Ajouter aux favoris",
+      "REMOVE_FROM_FAV": "Retirer des favoris",
+      "DIALOG": {
+        "TITLE": "Supprimer la carte mentale",
+        "DESC": "Êtes-vous sûr de vouloir supprimer cette carte mentale ? Vous perdrez toutes les données et les actions associées. La suppression est irréversible.",
+        "BTN_DELETE": "Supprimer",
+        "BTN_PENDING": "Suppression en cours"
+      },
+      "CREATOR_INFO": "Créée par",
+      "EDITOR_INFO": "Modifiée par"
+    },
+    "ASSIGNMENT": {
+      "TRIGGER": "Assigner",
+      "ERROR_MSG": "Quelque chose a mal tourné, veuillez réessayer",
+      "ERROR_BTN": "Réessayer",
+      "PLACEHOLDER": "Filtrer",
+      "NOT_FOUND": "Utilisateur non trouvé",
+      "HEADING": "ASSIGNER À"
+    }
+  },
+  "SETTINGS": {
+    "ACCOUNT": {
+      "TITLE": "Compte",
+      "DESC": "Gérez votre compte Super Productive. Toutes les modifications apportées à votre compte seront appliquées à tous les espaces de travail.",
+      "IMAGE": "IMAGE DE PROFIL",
+      "USERNAME": "NOM D'UTILISATEUR",
+      "FIRST_NAME": "PRÉNOM (OPTIONNEL)",
+      "SURNAME": "NOM (OPTIONNEL)",
+      "USERNAME_PLACEHOLDER": "Nom d'utilisateur",
+      "FIRST_NAME_PLACEHOLDER": "Prénom",
+      "SURNAME_PLACEHOLDER": "Nom",
+      "LANG": "LANGUE",
+      "SEARCH_LANGUAGE": "Rechercher une langue...",
+      "SELECT_LANGUAGE": "Sélectionner une langue",
+      "UPDATE_BTN": "Mettre à jour",
+      "DELETE_TITLE": "Supprimer le compte",
+      "DELETE_DESC": "Une fois le compte et les données supprimés, il n'y a aucun moyen de les récupérer.",
+      "DELETE_LABEL": "SUPPRIMER MON COMPTE ET MES DONNÉES",
+      "DELETE_PLACEHOLDER": "Confirmez votre email",
+      "DELETE_BTN": "Supprimer",
+      "DIALOG": {
+        "TITLE": "Supprimer le compte",
+        "DESC": "Vous perdrez l'accès à tous vos espaces de travail et projets",
+        "WARNING": "La suppression du compte est permanente et ne peut être annulée, cliquez sur 'Supprimer mon compte' pour supprimer votre compte.",
+        "BUTTON": "SUPPRIMER MON COMPTE"
+      }
+    },
+    "THEME": {
+      "ADD_TASK": "Ajouter une tâche",
+      "ADD_TASK_PENDING": "Création de la tâche en cours"
+    },
+    "SECURITY": {
+      "TITLE": "Sécurité",
+      "DESC": "Vous pouvez changer votre mot de passe ici. Souvenez-vous qu'il doit contenir au moins 6 caractères, une majuscule et une minuscule, et au moins un chiffre",
+      "WARNING": {
+        "FIRST": "Le mot de passe peut être changé",
+        "SECOND": "uniquement pour les comptes créés via le formulaire du site",
+        "THIRD": "Si vous avez créé un compte via le bouton Google ou Github, ",
+        "FOURTH": "il n'est pas possible de changer le mot de passe",
+        "FIFTH": "en raison d'une autre méthode d'autorisation de compte."
+      },
+      "FORM": {
+        "CURRENT": {
+          "LABEL": "MOT DE PASSE ACTUEL",
+          "PLACEHOLDER": "Mot de passe actuel"
+        },
+        "NEW": {
+          "LABEL": "NOUVEAU MOT DE PASSE",
+          "PLACEHOLDER": "Nouveau mot de passe"
+        },
+        "REPEAT": {
+          "LABEL": "CONFIRMER LE MOT DE PASSE",
+          "PLACEHOLDER": "Confirmer le mot de passe"
+        },
+        "BTN": "Changer le mot de passe",
+        "BTN_PENDING": "Changement de mot de passe en cours"
+      }
+    }
+  },
+  "POMODORO": {
+    "SETTINGS": {
+      "CARD": {
+        "TITLE": "Paramètres Pomodoro",
+        "DESC": "Gérez vos paramètres. Personnalisez votre Pomodoro comme vous le souhaitez. Vous pouvez changer le nombre de cycles, la durée du travail et des pauses, ainsi que personnaliser les sons de notification."
+      },
+      "FORM": {
+        "TIMER": "Minuteur",
+        "SOUND": "Son",
+        "WORK": {
+          "LABEL": "Durée du travail : {value} minutes",
+          "DESC": "Définissez la durée de votre travail"
+        },
+        "SHORT_BREAK": {
+          "LABEL": "Durée de la courte pause : {value} minutes",
+          "DESC": "Définissez la durée de votre courte pause"
+        },
+        "LONG_BREAK": {
+          "LABEL": "Durée de la longue pause : {value} minutes",
+          "DESC": "Définissez la durée de votre longue pause"
+        },
+        "ROUNDS": {
+          "LABEL": "Nombre de cycles : {value}",
+          "DESC": "Définissez combien de cycles complètent une session complète (un cycle se termine après que le temps de longue pause soit écoulé)"
+        },
+        "LONG_BREAKS_INTERVAL": {
+          "LABEL": "Intervalle entre les longues pauses : {value}",
+          "DESC": "La valeur plus grande, plus long est un cycle (plus grand intervalle entre les longues pauses)"
+        },
+        "ALARM": {
+          "LABEL": "Son de notification",
+          "DESC": "Choisissez le son à jouer quand le temps est écoulé",
+          "ANALOG": "Analogique",
+          "BELL": "Cloche",
+          "BIRD": "Oiseau",
+          "CHURCH_BELL": "Cloche d'église",
+          "DIGITAL": "Digital",
+          "FANCY": "Fancy"
+        },
+        "VOLUME": {
+          "LABEL": "Volume du son de notification : {value}%",
+          "DESC": "Pour couper le son de la notification, réglez le volume à 0%"
+        },
+        "RESET": {
+          "BTN": "Réinitialiser les paramètres",
+          "BTN_PENDING": "Réinitialisation en cours"
+        },
+        "SAVE": {
+          "BTN": "Enregistrer les modifications",
+          "BTN_PENDING": "Enregistrement en cours"
+        }
+      }
+    },
+    "TIMER": {
+      "END_TEXT": "Bon travail !",
+      "FOCUS": "C'est l'heure de se concentrer",
+      "BREAK": "C'est l'heure de la pause !",
+      "ROUNDS": {
+        "FIRST": "Cycle",
+        "SECOND": "sur"
+      },
+      "NEW": "Démarrer une nouvelle session",
+      "START": "Démarrer",
+      "STOP": "Arrêter"
+    }
+  },
+  "STARRED": {
+    "TITLE": "Vos éléments étoilés",
+    "DESC": "Ici, vous trouverez toutes vos cartes mentales et tâches sauvegardées.",
+    "ERROR": "Une erreur est survenue lors de la récupération de vos données. Veuillez réessayer.",
+    "ITEM_SENTENCE": {
+      "MIND_MAP": "Carte mentale modifiée",
+      "TASK": "Tâche modifiée",
+      "BY": "par",
+      "IN": " - dans"
+    },
+    "DEFAULT_NAME": {
+      "MIND_MAP": "Carte mentale sans titre",
+      "TASK": "Tâche sans titre"
+    },
+    "UNSTAR": "Retirer l'étoile",
+    "SORT": {
+      "ASC": "Les plus récents",
+      "DESC": "Les plus anciens",
+      "INFO": "Tri par date de modification"
+    },
+    "NO_ITEMS": {
+      "TITLE": "Vous n'avez pas de projets marqués avec une étoile",
+      "DESC": "Toute tâche ou carte mentale que vous étoilerez apparaîtra ici."
+    }
+  },
+  "ASSIGNED_TO_ME": {
+    "TITLE": "Assigné à moi",
+    "DESC": "Ici, vous trouverez toutes vos cartes mentales et tâches sauvegardées",
+    "NO_ASSIGMENT": "Vous n'avez pas encore été assigné à quelque chose",
+    "NOT_FOUND": "Nous n'avons trouvé aucune tâche ou carte mentale correspondant aux critères",
+    "DEFAULT_NAME": {
+      "MIND_MAP": "Carte mentale sans titre",
+      "TASK": "Tâche sans titre"
+    }
+  },
+  "CALENDAR": {
+    "DAYS_OF_WEEK": {
+      "MON": "LUN",
+      "TUE": "MAR",
+      "WED": "MER",
+      "THU": "JEU",
+      "FRI": "VEN",
+      "SAT": "SAM",
+      "SUN": "DIM"
+    },
+    "HEADER": {
+      "PREV": "Précédent",
+      "TODAY": "Aujourd'hui",
+      "NEXT": "Suivant"
+    },
+    "TASK": "Tâche sans titre",
+    "SHOW_MORE": {
+      "MORE": "Plus",
+      "TITLE": "Toutes les tâches",
+      "DESC": "Toutes les tâches des espaces de travail auxquels vous appartenez"
+    }
+  },
+  "TASK_SHORTCUT": {
+    "TITLE": "Créer une tâche",
+    "HINT": "Ajout rapide",
+    "ADDED_TASK": "Tâche ajoutée au projet ! Voir la tâche",
+    "CHOOSE_WORKSPACE": "Choisir un espace de travail",
+    "DESC": "Ajoutez une tâche à l'espace de travail sélectionné auquel vous appartenez et pour lequel vous avez les permissions nécessaires",
+    "BTN_ADD": "Ajouter à l'espace de travail",
+    "BTN_NO_WORKSPACES": "Je comprends",
+    "BTN_PENDING": "Ajout en cours. Veuillez patienter",
+    "DUE_DATE": "Date d'échéance",
+    "MAIN_TAB": {
+      "PLACEHOLDER": "Ajouter un titre",
+      "WORKSPACE": "Espace de travail",
+      "WARNING": "Vous n'avez pas encore d'espaces de travail où vous pouvez ajouter une tâche. Créez un nouvel espace de travail ou rejoignez un espace existant avec au moins des permissions de niveau « Éditeur »."
+    }
+  },
+  "PERMISSION_INDICATOR": {
+    "TITLE": "Votre rôle actuel est",
+    "DESC": "Vos permissions dans l'espace de travail {workspace} sont actuellement",
+    "ROLES": {
+      "OWNER": "Propriétaire",
+      "ADMIN": "Admin",
+      "CAN_EDIT": "Éditeur",
+      "READ_ONLY": "Observateur"
+    },
+    "HINT": "La permission dans {workspace} est",
+    "ROLES_DESC": {
+      "OWNER": "En tant que Propriétaire, vous avez tous les droits possibles. Vous pouvez gérer le contenu, les autres utilisateurs et personnaliser les paramètres de l'espace de travail. Cependant, en tant que Propriétaire, vous ne pouvez pas quitter cet espace de travail; la seule option est de le supprimer complètement dans les paramètres.",
+      "ADMIN": "En tant qu'Admin, vous avez tous les droits possibles, y compris de changer les paramètres de l'espace de travail et de gérer d'autres utilisateurs.",
+      "CAN_EDIT": "En tant qu'Éditeur, vous avez un accès complet à l'espace de travail, avec des droits pour modifier et supprimer du contenu dans l'espace de travail. Cependant, vous n'avez pas accès aux paramètres de l'espace de travail.",
+      "READ_ONLY": "En tant qu'Observateur, vous avez un accès complet à l'espace de travail mais sans les permissions pour modifier le contenu à l'intérieur. Vous n'avez également pas accès aux paramètres de l'espace de travail."
+    },
+    "BTN": "Compris"
+  },
+  "USERS_STATUS_LIST": {
+    "ROLES": {
+      "OWNER": "Propriétaire",
+      "ADMIN": "Admin",
+      "CAN_EDIT": "Éditeur",
+      "READ_ONLY": "Observateur",
+      "UNAVAILABLE": "INDISPONIBLE"
+    },
+    "ERROR": {
+      "MG": "Échec de la récupération des informations des membres de l'espace de travail",
+      "BTN": "Réessayer"
+    }
+  },
+  "NOTIFICATIONS": {
+    "TITLE": "Notifications",
+    "MARK_AS_READ": "Marquer tout comme lu",
+    "NO_NOTIFICATIONS": "Vous n'avez aucune notification pour le moment",
+    "ERROR": "Une erreur est survenue lors de la récupération des notifications",
+    "NOTIFY_ITEM": {
+      "ROLES": {
+        "ADMIN": "Admin",
+        "CAN_EDIT": "Éditeur",
+        "READ_ONLY": "Observateur"
+      },
+      "NEW_USER_IN_WORKSPACE_TEXT": "a rejoint l'espace de travail {name}",
+      "USER_LEFT_WORKSPACE_TEXT": "a quitté l'espace de travail {name}",
+      "NEW_TASK_TEXT": "a ajouté une nouvelle tâche dans l'espace de travail {name}",
+      "NEW_MIND_MAP_TEXT": "a ajouté une nouvelle carte mentale dans l'espace de travail {name}",
+      "NEW_ROLE_TEXT": "Vous avez été accordé des permissions de niveau {role} dans l'espace de travail {name}",
+      "NEW_ASSIGMENT_TASK_TEXT": "Vous avez été assigné à une tâche dans l'espace de travail {name}",
+      "NEW_ASSIGMENT_MIND_MAP_TEXT": "Vous avez été assigné à une carte mentale dans l'espace de travail {name}"
+    }
+  },
+  "HOME_PAGE": {
+    "NO_DATA": "Aucune activité trouvée. Rejoignez un espace de travail ou créez le vôtre. Ensuite, toutes les tâches et cartes mentales éditées seront visibles ici par ordre du plus récent.",
+    "ERROR": "Une erreur est survenue lors de la récupération de la dernière activité."
+  },
+  "WORKSPACE_MAIN_PAGE": {
+    "FILTER": {
+      "FILTER_BTN": "Filtrer",
+      "CLEAR_BTN": "Effacer"
+    },
+    "COMMAND": {
+      "SEARCH": "Rechercher",
+      "NO_RESULTS_FOUND": "Aucun résultat trouvé",
+      "ASSIGNED_TO": "ASSIGNÉ À",
+      "TAG": "ÉTIQUETTE",
+      "ASSIGNED_TO_ME": "Assigné à moi"
+    },
+    "RECENT_ACTIVITY": {
+      "NO_FILTERED_DATA": "Aucune tâche et carte mentale à afficher pour les critères donnés",
+      "ERROR": "Échec de la récupération des données d'activité récente de l'espace de travail",
+      "NO_DATA": "Aucune activité trouvée. Créez vos premières tâches et cartes mentales maintenant !"
+    },
+    "SHORTCUT_CONTAINER": {
+      "GROUP_CHAT": "Chat de groupe",
+      "PRIVATE_CHAT": "Chat privé",
+      "NEW_TASK": "Nouvelle tâche",
+      "NEW_MIND_MAP": "Nouvelle carte mentale"
+    }
+  },
+  "CHAT": {
+    "NO_MESSAGES": {
+      "FIRST": "Nous n'avons trouvé aucun message dans ce chat.",
+      "SECOND": "Envoyez le premier message !"
+    },
+    "HEADER": { "TITLE": "Chat de {workspaceName}" },
+    "DELETE_MESSAGE": {
+      "TITLE": "Supprimer le message",
+      "DESC": "Cette opération est irréversible et supprimera définitivement le message.",
+      "BTN_DELETE": "Supprimer",
+      "BTN_CANCEL": "Annuler"
+    },
+    "EDIT": {
+      "BADGE": "(modifié)",
+      "TEXT": {
+        "FIRST": "Appuyez sur",
+        "SECOND": ", pour annuler • Appuyez sur",
+        "THIRD": ", pour enregistrer"
+      }
+    },
+    "OPTIONS": {
+      "EDIT": "Modifier le message",
+      "DELETE": "Supprimer le message"
+    },
+    "LOAD_MORE": "Charger plus",
+    "NOTIFICATIONS": "{notifications} nouveaux messages",
+    "NEW_MESSAGE": {
+      "PLACEHOLDER": "Nouveau message",
+      "DELETE_ATACHMENT": "Supprimer la pièce jointe",
+      "ATACHMENT_DEAFULT_ERROR": "Échec de l'ajout des pièces jointes.",
+      "ATACHMENT_TO_MANY_ERROR": "Échec de l'ajout des pièces jointes. Le nombre maximum de fichiers que vous pouvez envoyer en une fois est de 5 images et 5 PDF.",
+      "ATACHMENT_TO_BIG_ERROR": "Échec de l'ajout des pièces jointes. Un des fichiers est trop volumineux.",
+      "ATACHMENT_WRONG_FILE_ERROR": "Échec de l'ajout des pièces jointes. Un des fichiers est dans un format non supporté."
+    }
+  },
+  "CLIENT_ERROR": {
+    "TITLE": "Oh non... Quelque chose a mal tourné",
+    "BTN": "Réessayer"
+  },
+  "ROUTES": {
+    "DASHBOARD": "Accueil",
+    "SETTINGS": "Paramètres",
+    "SECURITY": "Sécurité",
+    "THEME": "Thème",
+    "TASKS": "Tâches",
+    "UNTITLED": "Sans titre",
+    "POMODORO": "Pomodoro",
+    "STARRED": "Étoilé",
+    "ASSIGNED-TO-ME": "Assigné à moi"
+  },
+  "EDIT_WORKSPACE": {
+    "TITLE": "Modifier l'espace de travail",
+    "DESC": "Ici, vous pouvez changer le nom de l'espace de travail et son icône.",
+    "PICTURE": {
+      "LABEL": "ICÔNE DE L'ESPACE DE TRAVAIL",
+      "TITLE": "Changer l'icône",
+      "BTN": "Choisir une image"
+    },
+    "DATA": {
+      "INPUTS": {
+        "NAME": "NOM DE L'ESPACE DE TRAVAIL",
+        "COLOR": "COULEUR DE L'ICÔNE DE L'ESPACE DE TRAVAIL"
+      },
+      "PLACEHOLDERS": {
+        "NAME": "ex. openstudio"
+      },
+      "INFO": "Changer la couleur n'affecte que l'apparence de l'icône de l'espace de travail uniquement lorsqu'aucune image n'a été ajoutée",
+      "BTN": "Mettre à jour",
+      "BTN_PENDING": "Mise à jour en cours"
+    },
+    "DELETE": {
+      "TITLE": "Supprimer l'espace de travail",
+      "DESC": "Une fois un espace de travail et les données qui lui appartiennent supprimés, il n'y a aucun moyen de les récupérer.",
+      "LABEL": "CONFIRMER LE NOM DE L'ESPACE DE TRAVAIL",
+      "BTN": "Supprimer",
+      "DIALOG": {
+        "TITLE": "Supprimer l'espace de travail",
+        "DESC": "Toutes les données seront définitivement supprimées, et tous les utilisateurs appartenant à cet espace de travail perdront l'accès à celui-ci",
+        "WARNING": "La suppression de l'espace de travail est permanente et ne peut être annulée, cliquez sur 'Supprimer l'espace de travail' pour supprimer l'espace de travail",
+        "BUTTON": "SUPPRIMER L'ESPACE DE TRAVAIL",
+        "PENDING_BTN": "Suppression en cours. Veuillez patienter"
+      }
+    },
+    "MEMBERS": {
+      "TITLE": "Membres",
+      "DESC": "Ici, vous pouvez gérer les membres de l'espace de travail. Vous pouvez changer leurs rôles ainsi que les supprimer de l'espace de travail.",
+      "TABLE": {
+        "USERNAME": "NOM D'UTILISATEUR",
+        "PERMISSION_SMALL": "PERMISSIONS",
+        "PERMISSION_BIG": "PERMISSIONS DE L'ESPACE DE TRAVAIL"
+      },
+      "OPTIONS": {
+        "REMOVE_BTN": "Retirer",
+        "REMOVE": {
+          "TITLE": "Retirer de l'espace de travail",
+          "NOTE": "Vous pouvez réinviter cet utilisateur dans cet espace de travail à tout moment. Pour confirmer, cliquez sur 'Retirer de l'espace de travail'",
+          "BTN": "Retirer de l'espace de travail",
+          "BTN_PENDING": "Retrait en cours"
+        }
+      }
+    }
+  }
+}
