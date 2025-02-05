@@ -1,9 +1,10 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next-intl/client";
+
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "./button";
+import { usePathname } from "next/navigation";
 
 interface Props {
   href: string;
@@ -38,7 +39,18 @@ const ActiveLink = React.forwardRef<HTMLAnchorElement, Props>(
     }: Props,
     ref
   ) => {
+    const [mounted, setMounted] = useState(false);
     const pathname = usePathname();
+
+    useEffect(() => {
+      setMounted(true);
+    }, []);
+
+    if (!mounted) {
+      // Avoid rendering on the server side, which causes hydration errors
+      return <>{children}</>;
+    }
+
     return (
       <Link
         href={href}
